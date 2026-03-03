@@ -6,7 +6,10 @@ import numpy as np
 with open("iris_model.pkl", "rb") as f:
     model = pickle.load(f)
 
+st.title("🌸 Sơn Quý 🌸")
+
 st.title("🌸 Iris Flower Classification App")
+
 
 st.write("Nhập thông số hoa để dự đoán loại:")
 
